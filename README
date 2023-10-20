@@ -1,41 +1,44 @@
-# DBYW - A WordPress Asset Management Plugin
+# Simple CSS & JS Manager for WordPress
 
-**DBYW** is a WordPress plugin designed specifically for managing JavaScript and CSS files
+Welcome to `simple-css-js`, a WordPress plugin crafted to make it easier for you to manage and enqueue your JavaScript and CSS files on your WordPress website.
 
-## Description
+## Features:
 
-This plugin checks for a manifest file in its `assets/dist` directory. This manifest file is presumed to contain paths for the plugin's main JavaScript and CSS files. Once identified, these files are enqueued for use on the WordPress frontend, ensuring your site has the necessary styles and scripts loaded.
+- Simple and lightweight.
+- Easily enqueue CSS and JS files for your WordPress site.
+  
+## Installation:
 
-## Installation
+1. Download the `simple-css-js` plugin zip.
+2. Log in to your WordPress dashboard, navigate to the Plugins menu and click `Add New`.
+3. In the `Upload` tab, browse for the plugin zip file and click `Install Now`.
+4. After the plugin has been installed, click `Activate`.
 
-1. Upload the `dbyw` directory to your `/wp-content/plugins/` directory.
-2. Activate the **DBYW** plugin through the 'Plugins' menu in WordPress.
-3. The plugin automatically manages the assets for you; no further configuration is required.
+## Usage:
 
-## Features
+Once activated, the plugin will automatically enqueue `style.css` and `script.js` from the plugin's directory to your WordPress site. You don't need to make any configurations. Just make sure you have your desired styles in `style.css` and scripts in `script.js` inside the plugin's directory.
 
-* Automated asset management: Checks for and loads main CSS and JS files from the `assets/dist` directory.
-* Uses a manifest file for identifying the correct assets to enqueue.
-* Provides activation and deactivation hooks to manage rewrite rules.
+## Customizing:
 
-## Usage
+If you want to customize the CSS and JS files, navigate to the plugin's directory and modify the `style.css` for your custom styles and `script.js` for your custom scripts.
 
-Simply activate the plugin, and it will automatically enqueue the required CSS and JS files for your website based on the manifest file present in the `assets/dist` directory.
+## Changelog:
 
-## Changelog
+### 1.0 
+- Initial release
 
-### 1.0
-* Initial release
+## Author:
 
-## Developer
+**Dave**
 
-* **David O'Connell**
+## License:
 
-## License
+This plugin is licensed under the [GNU General Public License (GPL) v3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-This plugin is licensed under the GNU General Public License (GPL) v3.
+## Security:
 
-## Support
+The plugin is developed to prevent direct access and protects against malicious attempts.
 
-For any issues, please contact David O'Connell or refer to the Plugin URI for more information and support.
+---
 
+For any issues or suggestions, please contact the plugin author.

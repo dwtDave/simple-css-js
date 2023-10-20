@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: simple-css-js
-Plugin URI: 
+Plugin URI: dontbrickyourwebsite.com
 Description: A WordPress plugin to manage JavaScript and CSS files for your wordpress site
 Version: 1.0
 Author: Dave
