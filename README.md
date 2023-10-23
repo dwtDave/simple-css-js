@@ -1,4 +1,4 @@
-# Simple CSS & JS Manager for WordPress 🎨📜
+# Simple CSS & JS Manager for WordPress and Bricks 🎨📜
 
 Welcome to `simple-css-js`! This WordPress plugin is designed to streamline the management and enqueueing of your JavaScript and CSS files on your WordPress site.
 
