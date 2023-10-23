@@ -19,7 +19,9 @@ function dbyw_plugin_enqueue_assets() {
     wp_enqueue_style('custom-css-style', plugin_dir_url(__FILE__) . '/src/styles/style.css');
 
     // Enqueue JavaScript
-    wp_enqueue_script('custom-js-script', plugin_dir_url(__FILE__) . '/src/js/script.js', [], '1.0.0', true);
+    if ( ! bricks_is_builder_main() ) {
+        wp_enqueue_script('custom-js-script', plugin_dir_url(__FILE__) . '/src/js/script.js', [], '1.0.0', true);
+    }
 }
 add_action('wp_enqueue_scripts', 'dbyw_plugin_enqueue_assets');
 
